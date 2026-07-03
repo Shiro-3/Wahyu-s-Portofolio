@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio of [Your Name] — IT Specialist, Developer & Tech Enthusiast based in Semarang, Indonesia." />
+  <title>Wahyu's Portofolio | IT Enthusiast &amp; Web Developer</title>
+  <link rel="icon" type="image/x-icon" href="assets\Icons\logo.png">
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <!-- Google Fonts: Space Grotesk + Inter + JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css\style.css" />
+</head>
+<body>
+
+<!-- ================================================================
+     NAVIGATION — Sticky Top
+================================================================ -->
+<nav class="navbar navbar-expand-lg sticky-top" id="mainNav" aria-label="Main navigation">
+  <div class="container">
+    <a class="navbar-brand" href="#home" aria-label="Home">
+      <span class="brand-text">My Portfolio</span>
+    </a>
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-1">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ================================================================
+     SECTION 1 — HERO
+================================================================ -->
+<section id="home" class="hero-section" aria-label="Introduction">
+  <div class="hero-bg-dots" aria-hidden="true"></div>
+  <div class="hero-glow-orb orb-1" aria-hidden="true"></div>
+  <div class="hero-glow-orb orb-2" aria-hidden="true"></div>
+
+  <div class="container position-relative">
+    <div class="row align-items-center min-vh-100">
+
+      <!-- Left: Text -->
+      <div class="col-lg-7 hero-content">
+        <p class="hero-eyebrow">Hi, my name is</p>
+        <h1 class="hero-name">WAHYU TRI SULISTIANTO</h1>
+        <div class="hero-title-wrapper" aria-live="polite">
+          <span id="typewriter"></span><span class="cursor-blink" aria-hidden="true">|</span>
+        </div>
+        <p class="hero-bio">
+          Passionate about building intelligent systems, automating the mundane, and crafting digital experiences that matter. Currently studying at UNISSULA — where theory meets real-world technology.
+        </p>
+        <div class="hero-buttons d-flex flex-wrap gap-3 mt-4">
+          <a href="#" class="btn-primary-custom" download aria-label="Download Resume">
+            <i class="fas fa-download me-2" aria-hidden="true"></i>Resume
+          </a>
+          <a href="https://www.linkedin.com/in/wahyu-tri-sulistianto-86551424b" target="_blank" rel="noopener" class="btn-outline-custom" aria-label="LinkedIn">
+            <i class="fab fa-linkedin me-2" aria-hidden="true"></i>LinkedIn
+          </a>
+          <a href="https://github.com/Shiro-3" target="_blank" rel="noopener" class="btn-outline-custom" aria-label="GitHub">
+            <i class="fab fa-github me-2" aria-hidden="true"></i>GitHub
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: Profile Photo -->
+      <div class="col-lg-5 d-flex justify-content-center mt-5 mt-lg-0">
+        <div class="profile-picture-wrapper" aria-hidden="true">
+          <div class="profile-glow-ring"></div>
+          <div class="profile-picture">
+            <!-- Replace src with your actual photo: src="assets/profile.jpg" -->
+            <img
+              src="assets\Images\Profile.jpeg"
+              alt="[Your Name] — Profile Photo"
+              width="340" height="340"
+            />
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <a href="#experience" class="hero-scroll-indicator" aria-label="Scroll to Experience">
+    <i class="fas fa-chevron-down" aria-hidden="true"></i>
+  </a>
+</section>
+
+
+<!-- ================================================================
+     SECTION 2 — EXPERIENCE
+================================================================ -->
+<section id="experience" class="section-padding section-light" aria-label="Experience">
+  <div class="container">
+    <div class="section-header text-center">
+      <p class="section-eyebrow">What I've Done</p>
+      <h2 class="section-title">Experience</h2>
+    </div>
+
+    <div class="timeline" role="list">
+
+      <!-- Experience 1: Research & Development -->
+      <div class="timeline-item" role="listitem">
+        <div class="timeline-dot" aria-hidden="true"></div>
+        <div class="timeline-content">
+          <article class="timeline-card reveal">
+            <div class="timeline-header">
+              <span class="timeline-badge badge-research">R&amp;D</span>
+              <span class="timeline-date">
+                <i class="far fa-calendar-alt me-1" aria-hidden="true"></i>2023
+              </span>
+            </div>
+            <h3 class="timeline-role">Research &amp; Development — Team Member</h3>
+            <h4 class="timeline-org">PKM-GFT: Optimizing Flood Control Through a Technology- and Community-Based Approach in the City of Semarang</h4>
+            <p class="timeline-desc">
+              Designed technical approaches for a multidisciplinary project, bridging data-driven flood control systems with actionable community response strategies
+            </p>
+            <div class="timeline-tags" aria-label="Skills involved">
+              <span class="tag">Research</span>
+              <span class="tag">Innovation</span>
+              <span class="tag">PKM-KC</span>
+              <span class="tag">Prototyping</span>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Experience 2: Community Service -->
+      <div class="timeline-item timeline-item-right" role="listitem">
+        <div class="timeline-dot" aria-hidden="true"></div>
+        <div class="timeline-content">
+          <article class="timeline-card reveal">
+            <div class="timeline-header">
+              <span class="timeline-badge badge-research">R&amp;D</span>
+              <span class="timeline-date">
+                <i class="far fa-calendar-alt me-1" aria-hidden="true"></i>2024 – 2025
+              </span>
+            </div>
+            <h3 class="timeline-role">Research &amp; Development — Team Member</h3>
+            <h4 class="timeline-org">PKM-KC: Microcontroller-Based Smart Food Warmer</h4>
+            <p class="timeline-desc">
+              Designed and programmed an innovative portable food heating solution utilizing
+              microcontroller technology for integrating smart temperature control systems to enhance food convenience for mobile users
+            </p>
+            <div class="timeline-tags" aria-label="Skills involved">
+              <span class="tag">Research</span>
+              <span class="tag">Innovation</span>
+              <span class="tag">PKM-KC</span>
+              <span class="tag">Prototyping</span>
+            </div>
+          </article>
+        </div>
+      </div>
+      
+      <!-- Experience 3: Leadership -->
+      <div class="timeline-item" role="listitem">
+        <div class="timeline-dot" aria-hidden="true"></div>
+        <div class="timeline-content">
+          <article class="timeline-card reveal">
+            <div class="timeline-header">
+              <span class="timeline-badge badge-leadership">Leadership</span>
+              <span class="timeline-date">
+                <i class="far fa-calendar-alt me-1" aria-hidden="true"></i>2023 – 2025
+              </span>
+            </div>
+            <h3 class="timeline-role">Member of Legislative Body</h3>
+            <h4 class="timeline-org">SEMA FTI — Parlemen Paramartha Samahita</h4>
+            <p class="timeline-desc">
+              Served as a legislative representative in the Faculty of Industrial Technology's Student Executive Board. Contributed to policy-making, student advocacy, and organizational governance that shaped the academic environment for hundreds of students across multiple semesters.
+            </p>
+            <div class="timeline-tags" aria-label="Skills involved">
+              <span class="tag">Leadership</span>
+              <span class="tag">Policy Making</span>
+              <span class="tag">Advocacy</span>
+              <span class="tag">Governance</span>
+              <span class="tag">Multimedia</span>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Experience 4: Community Service -->
+      <div class="timeline-item timeline-item-right" role="listitem">
+        <div class="timeline-dot" aria-hidden="true"></div>
+        <div class="timeline-content">
+          <article class="timeline-card reveal">
+            <div class="timeline-header">
+              <span class="timeline-badge badge-community">Community</span>
+              <span class="timeline-date">
+                <i class="far fa-calendar-alt me-1" aria-hidden="true"></i>2023
+              </span>
+            </div>
+            <h3 class="timeline-role">Infrastructure &amp; Education Volunteer</h3>
+            <h4 class="timeline-org">KKN — Desa Banyumeneng Community Service</h4>
+            <p class="timeline-desc">
+              Led infrastructure improvement initiatives and educational development programs as part of community service (KKN) in Desa Banyumeneng. Organized digital literacy workshops, coordinated facility refurbishments, and facilitated teaching programs for local youth in underprivileged areas.
+            </p>
+            <div class="timeline-tags" aria-label="Skills involved">
+              <span class="tag">Community Service</span>
+              <span class="tag">Digital Literacy</span>
+              <span class="tag">Education</span>
+              <span class="tag">Infrastructure</span>
+            </div>
+          </article>
+        </div>
+      </div>
+
+    </div><!-- /.timeline -->
+  </div>
+</section>
+
+
+<!-- ================================================================
+SECTION 3 — PROJECTS
+================================================================ -->
+
+<section id="projects" class="section-padding section-dark">
+  <div class="container">
+    <div class="section-header text-center">
+      <p class="section-eyebrow">What I've Built</p>
+      <h2 class="section-title section-title-light">Projects</h2>
+    </div>
+
+    <!-- PROJECT CARD OTOMATIS -->
+
+    <div class="project-wrapper">
+      <button class="scroll-btn left" onclick="scrollProjects(-1)">❮</button>
+      <div
+      id="projectContainer" class="project-scroll">
+      </div>
+        <button class="scroll-btn right" onclick="scrollProjects(1)">❯</button>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================================================================
+     SECTION 4 — SKILLS
+================================================================ -->
+<section id="skills" class="section-padding section-light" aria-label="Skills">
+  <div class="container">
+    <div class="section-header text-center">
+      <p class="section-eyebrow">What I Know</p>
+      <h2 class="section-title">Skills</h2>
+    </div>
+
+    <!-- Progress Bars -->
+    <div class="row g-5 mb-5">
+
+      <!-- Core Development -->
+      <div class="col-lg-6 reveal">
+        <h3 class="skills-category-title">Core Development</h3>
+
+        <div class="skill-item">
+          <div class="skill-label">
+            <span>Python</span>
+            <span class="skill-percent">85%</span>
+          </div>
+          <div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+            <div class="skill-fill" data-width="90"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-label">
+            <span>Web Development (PHP, Bootstrap)</span>
+            <span class="skill-percent">75%</span>
+          </div>
+          <div class="skill-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div class="skill-fill" data-width="75"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-label">
+            <span>Data Engineering (Pandas)</span>
+            <span class="skill-percent">80%</span>
+          </div>
+          <div class="skill-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+            <div class="skill-fill" data-width="80"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-label">
+            <span>JavaScript (Vanilla)</span>
+            <span class="skill-percent">70%</span>
+          </div>
+          <div class="skill-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+            <div class="skill-fill" data-width="70"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- AI / ML -->
+      <div class="col-lg-6 reveal">
+        <h3 class="skills-category-title">AI &amp; Machine Learning</h3>
+
+        <div class="skill-item">
+          <div class="skill-label">
+            <span>Natural Language Processing (NLTK)</span>
+            <span class="skill-percent">85%</span>
+          </div>
+          <div class="skill-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+            <div class="skill-fill" data-width="85"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-label">
+            <span>Computer Vision (OpenCV)</span>
+            <span class="skill-percent">78%</span>
+          </div>
+          <div class="skill-bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">
+            <div class="skill-fill" data-width="78"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-label">
+            <span>Machine Learning (Scikit-learn, CNN)</span>
+            <span class="skill-percent">82%</span>
+          </div>
+          <div class="skill-bar" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100">
+            <div class="skill-fill" data-width="82"></div>
+          </div>
+        </div>
+
+        <div class="skill-item">
+          <div class="skill-label">
+            <span>Deep Learning (TensorFlow / Keras)</span>
+            <span class="skill-percent">72%</span>
+          </div>
+          <div class="skill-bar" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100">
+            <div class="skill-fill" data-width="72"></div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /.row progress bars -->
+
+    <!-- Tool Badges -->
+    <div class="skills-badges-section reveal">
+      <h3 class="skills-category-title text-center d-block w-100">Tools &amp; Technologies</h3>
+      <div class="d-flex flex-wrap justify-content-center gap-3 mt-4">
+        <span class="skill-badge"><i class="fab fa-python me-2" aria-hidden="true"></i>Python</span>
+        <span class="skill-badge"><i class="fas fa-brain me-2" aria-hidden="true"></i>TensorFlow</span>
+        <span class="skill-badge"><i class="fab fa-git-alt me-2" aria-hidden="true"></i>Git</span>
+        <span class="skill-badge"><i class="fas fa-database me-2" aria-hidden="true"></i>MySQL</span>
+        <span class="skill-badge"><i class="fab fa-js-square me-2" aria-hidden="true"></i>JavaScript</span>
+        <span class="skill-badge"><i class="fab fa-html5 me-2" aria-hidden="true"></i>HTML5 / CSS3</span>
+        <span class="skill-badge"><i class="fab fa-bootstrap me-2" aria-hidden="true"></i>Bootstrap</span>
+        <span class="skill-badge"><i class="fas fa-robot me-2" aria-hidden="true"></i>Selenium</span>
+        <span class="skill-badge"><i class="fas fa-chart-bar me-2" aria-hidden="true"></i>Pandas / NumPy</span>
+        <span class="skill-badge"><i class="fas fa-code me-2" aria-hidden="true"></i>PHP</span>
+        <span class="skill-badge"><i class="fab fa-docker me-2" aria-hidden="true"></i>Docker</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ================================================================
+     SECTION 5 — EDUCATION
+================================================================ -->
+<section id="education" class="section-padding section-dark" aria-label="Education">
+  <div class="container">
+    <div class="section-header text-center">
+      <p class="section-eyebrow">Where I Studied</p>
+      <h2 class="section-title section-title-light">Education</h2>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-9 col-xl-8">
+        <div class="education-card reveal">
+
+          <div class="edu-icon-wrapper" aria-hidden="true">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+
+          <div class="edu-content">
+            <span class="edu-degree-badge">S1 — Bachelor's Degree</span>
+            <h3 class="edu-institution">Universitas Islam Sultan Agung</h3>
+            <p class="edu-abbrev">(UNISSULA)</p>
+            <h4 class="edu-faculty">Faculty of Industrial Technology</h4>
+            <p class="edu-program">Informatics Engineering</p>
+            <div class="edu-meta d-flex flex-wrap gap-4 mt-3">
+              <span>
+                <i class="fas fa-map-marker-alt me-2 text-accent" aria-hidden="true"></i>Semarang, Central Java, Indonesia
+              </span>
+              <span>
+                <i class="far fa-calendar-alt me-2 text-accent" aria-hidden="true"></i>2022 – Present
+              </span>
+            </div>
+            <div class="edu-highlights mt-4">
+              <span class="edu-highlight-tag">
+                <i class="fas fa-trophy me-1" aria-hidden="true"></i>PKM-GFT Participant
+              </span>
+              <span class="edu-highlight-tag">
+                <i class="fas fa-trophy me-1" aria-hidden="true"></i>PKM-KC Participant
+              </span>
+              <span class="edu-highlight-tag">
+                <i class="fas fa-users me-1" aria-hidden="true"></i>Student Legislative Body
+              </span>
+              <span class="edu-highlight-tag">
+                <i class="fas fa-hands-helping me-1" aria-hidden="true"></i>KKN Community Service
+              </span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================================================================
+     SECTION 6 — CONTACT
+================================================================ -->
+<section id="contact" class="section-padding section-light" aria-label="Contact">
+  <div class="container">
+    <div class="section-header text-center">
+      <p class="section-eyebrow">Let's Connect</p>
+      <h2 class="section-title">Get In Touch</h2>
+    </div>
+
+    <div class="row g-5 align-items-start">
+
+      <!-- Contact Info -->
+      <div class="col-lg-5">
+        <div class="contact-info reveal">
+          <p class="contact-intro">
+            I'm open to new opportunities, research collaborations, freelance projects, or simply a friendly conversation about technology. Drop me a message — I'll reply within 24 hours.
+          </p>
+
+          <div class="contact-item">
+            <div class="contact-icon" aria-hidden="true"><i class="fas fa-envelope"></i></div>
+            <div>
+              <p class="contact-label">Email</p>
+              <a href="mailto:yourname@email.com" class="contact-value">wahyutrisulistianto8@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon" aria-hidden="true"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <p class="contact-label">Location</p>
+              <span class="contact-value">Semarang, Central Java, Indonesia</span>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon" aria-hidden="true"><i class="fas fa-clock"></i></div>
+            <div>
+              <p class="contact-label">Availability</p>
+              <span class="contact-value">Open to Opportunities</span>
+            </div>
+          </div>
+
+          <div class="contact-social mt-4" aria-label="Social media">
+            <a href="https://www.linkedin.com/in/wahyu-tri-sulistianto-86551424b" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/Shiro-3" target="_blank" rel="noopener" class="social-btn" aria-label="GitHub">
+              <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener" class="social-btn" aria-label="Twitter / X">
+              <i class="fab fa-x-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="https://instagram.com/wats_001" target="_blank" rel="noopener" class="social-btn" aria-label="Instagram">
+              <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-lg-7">
+        <div class="contact-form-card reveal">
+          <div id="form-feedback" aria-live="polite" style="display:none;"></div>
+
+          <div class="mb-4">
+            <label for="contactName" class="form-label-custom">Full Name</label>
+            <input type="text" class="form-control-custom" id="contactName"
+                   placeholder="e.g. Budi Santoso" autocomplete="name" />
+            <div class="invalid-feedback-custom" id="nameError" role="alert"></div>
+          </div>
+
+          <div class="mb-4">
+            <label for="contactEmail" class="form-label-custom">Email Address</label>
+            <input type="email" class="form-control-custom" id="contactEmail"
+                   placeholder="e.g. budi@example.com" autocomplete="email" />
+            <div class="invalid-feedback-custom" id="emailError" role="alert"></div>
+          </div>
+
+          <div class="mb-4">
+            <label for="contactSubject" class="form-label-custom">Subject</label>
+            <input type="text" class="form-control-custom" id="contactSubject"
+                   placeholder="e.g. Collaboration Opportunity" />
+            <div class="invalid-feedback-custom" id="subjectError" role="alert"></div>
+          </div>
+
+          <div class="mb-4">
+            <label for="contactMessage" class="form-label-custom">Message</label>
+            <textarea class="form-control-custom" id="contactMessage" rows="5"
+                      placeholder="Tell me about your project, idea, or just say hi..."></textarea>
+            <div class="invalid-feedback-custom" id="messageError" role="alert"></div>
+          </div>
+
+          <button type="button" class="btn-primary-custom btn-full-width" id="sendMessageBtn">
+            <i class="fas fa-paper-plane me-2" aria-hidden="true"></i>Send Message
+          </button>
+        </div>
+      </div>
+
+    </div><!-- /.row -->
+  </div>
+</section>
+
+
+<!-- ================================================================
+     FOOTER
+================================================================ -->
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-inner d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+
+      <div class="footer-brand">Wahyu Tri Sulistianto</div>
+
+      <p class="footer-copy mb-0">
+        &copy; <span id="footerYear"></span> Copyright © 2026.
+        <span class="text-accent" aria-label="love"></span>
+      </p>
+
+      <div class="footer-socials d-flex gap-3">
+        <a href="https://www.linkedin.com/in/wahyu-tri-sulistianto-86551424b" target="_blank" rel="noopener" class="footer-social" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+        </a>
+        <a href="https://github.com/Shiro-3" target="_blank" rel="noopener" class="footer-social" aria-label="GitHub">
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" rel="noopener" class="footer-social" aria-label="Twitter / X">
+          <i class="fab fa-x-twitter" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.instagram.com/wats_001/" target="_blank" rel="noopener" class="footer-social" aria-label="Instagram">
+          <i class="fab fa-instagram" aria-hidden="true"></i>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+
+<!-- Bootstrap 5 Bundle JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Custom JS -->
+<script src="js\scripts.js"></script>
+</body>
+</html>
