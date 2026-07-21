@@ -431,7 +431,7 @@ document.addEventListener(
   "AI based hoax detection system",
 
   project:
-  "projects/hoax-detection.html"
+  "https://github.com/Shiro-3/Multimodal_Hoax_Detection"
 
 },
 
@@ -441,29 +441,29 @@ document.addEventListener(
   "SK Mengajar Dosen",
 
   image:
-  "assets/Images/skmengajar.png",
+  "assets/Images/SK_Mengajar.png",
 
   desc:
   "Automatic lecturer document generation",
 
   project:
-  "projects/sk-mengajar.html"
+  "https://github.com/Shiro-3/SK_Mengajar_Dosen"
 
 },
 
 {
 
   title:
-  "Portfolio Website",
+  "SIMRS-IVET",
 
   image:
-  "assets/Images/portfolio.png",
+  "assets/Images/simrs.png",
 
   desc:
-  "Responsive modern portfolio",
+  "Integrated hospital management system",
 
   project:
-  "projects/portfolio.html"
+  "https://github.com/naufallathifan3/simrs"
 
 },
 
