@@ -426,9 +426,22 @@ document.addEventListener(
 
   image:
   "assets/Images/hoax.png",
-
+  
   desc:
   "AI based hoax detection system",
+  
+  category1:
+  "Data Engineering",
+  
+  category2:
+  "SQL",
+  
+  tech:[
+    "PHP",
+    "MySQL",
+    "bootstrap",
+    "JavaScript"
+  ],
 
   project:
   "https://github.com/Shiro-3/Multimodal_Hoax_Detection"
@@ -442,10 +455,23 @@ document.addEventListener(
 
   image:
   "assets/Images/SK_Mengajar.png",
-
+  
   desc:
   "Automatic lecturer document generation",
 
+  category1:
+  "Data Engineering",
+  
+  category2:
+  "SQL",
+  
+  tech:[
+    "PHP",
+    "MySQL",
+    "bootstrap",
+    "JavaScript"
+  ],
+  
   project:
   "https://github.com/Shiro-3/SK_Mengajar_Dosen"
 
@@ -461,26 +487,52 @@ document.addEventListener(
 
   desc:
   "Integrated hospital management system",
+  
+  category1:
+  "Data Engineering",
 
+  category2:
+  "SQL",
+
+  tech:[
+    "PHP",
+    "MySQL",
+    "bootstrap",
+    "JavaScript"
+  ],
+  
   project:
   "https://github.com/naufallathifan3/simrs"
-
+  
 },
 
 {
-
+  
   title:
   "Portfolio Website",
-
+  
   image:
   "assets/Images/portfolio.png",
 
   desc:
   "Responsive modern portfolio",
-
+  
+  category1:
+  "Data Engineering",
+  
+  category2:
+  "SQL",
+  
+  tech:[
+    "PHP",
+    "MySQL",
+    "bootstrap",
+    "JavaScript"
+  ],
+  
   project:
   "projects/portfolio.html"
-
+  
 }
 ];
 
@@ -494,37 +546,35 @@ if(!container)return;
 
 
 projects.forEach((p)=>{
-  container.innerHTML+=`
+  container.innerHTML += `
   <div class="col-lg-4">
 
-  <a
-  href="${p.project}"
+      <a href="${p.project}" class="project-card-new">
 
-  class="project-card-new">
+          <img src="${p.image}" alt="${p.title}">
 
-  <img
-  src="${p.image}">
+          <div class="project-info">
 
-  <div class="project-info">
+              <div class="project-category">
+                  <span class="project-badge category">${p.category1}</span>
+                  <span class="project-badge accent">${p.category2}</span>
+              </div>
 
-  <h4>
+              <h4>${p.title}</h4>
 
-  ${p.title}
+              <p>${p.desc}</p>
 
-  </h4>
+              <div class="project-tech">
+                  ${p.tech.map(item => `
+                      <span>${item}</span>
+                  `).join("")}
+              </div>
 
-  <p>
+          </div>
 
-  ${p.desc}
-
-  </p>
+      </a>
 
   </div>
-
-  </a>
-
-  </div>
-
   `;
 
 });
