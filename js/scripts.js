@@ -504,35 +504,6 @@ document.addEventListener(
   project:
   "https://github.com/Shiro-3/Multimodal_Hoax_Detection"
 
-},
-
-{
-  
-  title:
-  "Portfolio Website",
-  
-  image:
-  "assets/Images/portfolio.png",
-
-  desc:
-  "Responsive modern portfolio",
-  
-  category1:
-  "Data Engineering",
-  
-  category2:
-  "SQL",
-  
-  tech:[
-    "PHP",
-    "MySQL",
-    "bootstrap",
-    "JavaScript"
-  ],
-  
-  project:
-  "projects/portfolio.html"
-  
 }
 ];
 
