@@ -7,8 +7,7 @@ function initTypewriter() {
   const texts = [
     'IT Specialist, Developer & Tech Enthusiast',
     'AI & Machine Learning Enthusiast',
-    'Web Developer & Designer',
-    'Problem Solver & Innovator'
+    'Web Developer & Graphic Designer'
   ];
   
   let currentTextIndex = 0;
@@ -419,6 +418,64 @@ document.addEventListener(
 ()=>{
   const projects=[
 
+    
+{
+  
+  title:
+  "SK Mengajar Dosen",
+  
+  image:
+  "assets/Images/SK_Mengajar.png",
+  
+  desc:
+  "Automatic lecturer document generation",
+  
+  category1:
+  "Data Engineering",
+  
+  category2:
+  "Automation",
+  
+  tech:[
+    "PHP",
+    "MySQL",
+    "python-docx"
+    ],
+
+  project:
+  "https://github.com/Shiro-3/SK_Mengajar_Dosen"
+  
+},
+
+{
+  
+  title:
+  "SIMRS-IVET",
+  
+  image:
+  "assets/Images/simrs.png",
+  
+  desc:
+  "Integrated hospital management system",
+  
+  category1:
+  "Data Engineering",
+  
+  category2:
+  "SQL",
+  
+  tech:[
+    "PHP",
+    "MySQL",
+    "bootstrap",
+    "ERD Design"
+  ],
+  
+  project:
+  "https://github.com/naufallathifan3/simrs"
+  
+},
+
 {
 
   title:
@@ -431,79 +488,22 @@ document.addEventListener(
   "AI based hoax detection system",
   
   category1:
-  "Data Engineering",
+  "Machine Learning",
   
   category2:
-  "SQL",
+  "Python",
   
   tech:[
-    "PHP",
-    "MySQL",
-    "bootstrap",
-    "JavaScript"
+    "Python",
+    "Pandas",
+    "Matplotlib",
+    "Tensorflow",
+    "Keras"
   ],
 
   project:
   "https://github.com/Shiro-3/Multimodal_Hoax_Detection"
 
-},
-
-{
-
-  title:
-  "SK Mengajar Dosen",
-
-  image:
-  "assets/Images/SK_Mengajar.png",
-  
-  desc:
-  "Automatic lecturer document generation",
-
-  category1:
-  "Data Engineering",
-  
-  category2:
-  "SQL",
-  
-  tech:[
-    "PHP",
-    "MySQL",
-    "bootstrap",
-    "JavaScript"
-  ],
-  
-  project:
-  "https://github.com/Shiro-3/SK_Mengajar_Dosen"
-
-},
-
-{
-
-  title:
-  "SIMRS-IVET",
-
-  image:
-  "assets/Images/simrs.png",
-
-  desc:
-  "Integrated hospital management system",
-  
-  category1:
-  "Data Engineering",
-
-  category2:
-  "SQL",
-
-  tech:[
-    "PHP",
-    "MySQL",
-    "bootstrap",
-    "JavaScript"
-  ],
-  
-  project:
-  "https://github.com/naufallathifan3/simrs"
-  
 },
 
 {
