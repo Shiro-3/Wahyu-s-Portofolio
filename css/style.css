@@ -559,6 +559,11 @@ body {
   color: #059669;
 }
 
+.badge-accreditation{
+  background: rgba(251, 191, 36, 0.12);
+  color: #D97706;
+}
+
 .timeline-date {
   font-family: var(--font-mono);
   font-size: 0.78rem;
