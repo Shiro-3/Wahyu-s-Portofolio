@@ -1,0 +1,33 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='158' height='198' viewBox='0 0 158 198'>
+  <!-- Latar Belakang (sama seperti profil) -->
+  <rect width='100%' height='100%' fill='%23e8edf3'/>
+  
+  <!-- Bingkai monitor atau jendela browser -->
+  <rect x='20' y='40' width='118' height='118' rx='8' fill='%23b0bec5'/>
+  
+  <!-- Layar putih di dalam bingkai -->
+  <rect x='26' y='46' width='106' height='106' rx='4' fill='white'/>
+  
+  <!-- Detail UI kawat minimal (warna latar belakang muda) -->
+  <!-- Bilah Header -->
+  <rect x='30' y='52' width='98' height='10' rx='2' fill='%23e8edf3'/>
+  
+  <!-- Tombol Browser Kecil (warna ikon sedang) -->
+  <circle cx='36' cy='57' r='2' fill='%23b0bec5'/>
+  <circle cx='43' cy='57' r='2' fill='%23b0bec5'/>
+  <circle cx='50' cy='57' r='2' fill='%23b0bec5'/>
+  
+  <!-- Kotak Konten Abstraksi -->
+  <!-- Kotak besar kiri -->
+  <rect x='30' y='68' width='30' height='78' rx='2' fill='%23e8edf3'/>
+  
+  <!-- Kotak besar kanan -->
+  <rect x='65' y='68' width='63' height='78' rx='2' fill='%23e8edf3'/>
+  
+  <!-- Detail Kecil di Dalam Kotak Konten -->
+  <!-- Teks kecil kiri atas -->
+  <rect x='35' y='73' width='20' height='4' rx='1' fill='%23b0bec5'/>
+  
+  <!-- Teks kecil kanan atas -->
+  <rect x='70' y='73' width='30' height='4' rx='1' fill='%23b0bec5'/>
+</svg>

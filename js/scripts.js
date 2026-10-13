@@ -504,7 +504,43 @@ document.addEventListener(
   project:
   "https://github.com/Shiro-3/Multimodal_Hoax_Detection"
 
+},
+
+{
+
+  title:
+  "NBSLabstore",
+
+  image:
+  "assets/Images/upcoming-project.svg",
+  
+  desc:
+  "Companies inventory management system",
+  
+  category1:
+  "Data Engineering",
+  
+  category2:
+  "SQL",
+
+  category3:
+  "Inventory Management",
+
+  category4:
+  "Web Development",
+
+  tech:[
+    "PHP",
+    "SQL",
+    "bootstrap",
+    "ERD Design"
+  ],
+
+  project:
+  "#"
+
 }
+
 ];
 
 const container=
@@ -529,6 +565,8 @@ projects.forEach((p)=>{
               <div class="project-category">
                   <span class="project-badge category">${p.category1}</span>
                   <span class="project-badge accent">${p.category2}</span>
+                  <span class="project-badge accent">${p.category3}</span>
+                  <span class="project-badge accent">${p.category4}</span>
               </div>
 
               <h4>${p.title}</h4>
