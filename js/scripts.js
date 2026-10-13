@@ -512,7 +512,7 @@ document.addEventListener(
   "NBSLabstore",
 
   image:
-  "assets/Images/upcoming-project.svg",
+  "assets/Images/NBSLabstore.png",
   
   desc:
   "Companies inventory management system",
@@ -521,10 +521,10 @@ document.addEventListener(
   "Data Engineering",
   
   category2:
-  "SQL",
+  "MongoDB",
 
   category3:
-  "Inventory Management",
+  "DBMS",
 
   category4:
   "Web Development",
